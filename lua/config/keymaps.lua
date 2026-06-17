@@ -2,6 +2,5 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 
-local map = LazyVim.safe_keymap_set
-
-map("n", "<F5>", ":!make run<CR>", { desc = "Sends `make run` cmd", silent = false })
+vim.keymap.set("n", "<F5>", ":w | !make run<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<C-f>", ":Telescope find_files<CR>", { noremap = true })

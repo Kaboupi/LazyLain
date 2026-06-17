@@ -16,6 +16,7 @@ return {
 
   {
     "LazyVim/LazyVim",
+    -- gruvbox / terafox
     opts = { colorscheme = "gruvbox" },
   },
 }
