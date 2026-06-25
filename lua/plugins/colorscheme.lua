@@ -12,11 +12,11 @@ return {
   --     vim.cmd.colorscheme("zenbones")
   --   end,
   -- },
-  -- { "xiyaowong/transparent.nvim" },
+  { "xiyaowong/transparent.nvim" },
 
   {
     "LazyVim/LazyVim",
-    -- gruvbox / terafox
-    opts = { colorscheme = "gruvbox" },
+    -- gruvbox / terafox / nightfox
+    opts = { colorscheme = "nightfox" },
   },
 }
