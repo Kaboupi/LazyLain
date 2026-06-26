@@ -1,12 +1,9 @@
 ![NEOVIM](https://img.shields.io/badge/-NEOVIM-7CB95B?style=flat&logo=neovim&logoColor=white)
-# LazyLain
+# ⚙️ LazyLain
 
 A custom Neovim config based on [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
 
-<p align="center">
-  <img src="https://i.redd.it/37qjly9b90dy.gif" width="280" alt="Lain" />
-</p>
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
 
 ---
 
@@ -25,7 +22,7 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 - LeetCode: Direct LeetCode problem solving within Neovim
 - Visual Polish: Custom color scheme, smooth scrolling, cursor animations
-- Media Support: Image preview capabilities via image.nvim
+- Media Support: Image preview capabilities via `image.nvim`
 
 ---
 
@@ -34,3 +31,9 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 - Neovim >= 0.9.0
 - Git
 - For image preview: chafa, ImageMagick (NixOS)
+
+---
+
+<p align="center">
+  <img src="https://i.redd.it/37qjly9b90dy.gif" width="350" alt="Lain" />
+</p>
