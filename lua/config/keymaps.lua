@@ -3,3 +3,4 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("v", "ss", ":sort<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>t", ":TodoTelescope<CR>", { noremap = true, silent = true })
